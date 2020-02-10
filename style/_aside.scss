@@ -1,0 +1,40 @@
+aside {
+    width: 40vw;
+    height: 94vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1vh;
+    overflow-y: scroll;
+    &::-webkit-scrollbar-track
+{
+
+	background-color: #fff;
+}
+
+&::-webkit-scrollbar
+{
+	width: 1.2vw;
+}
+&::-webkit-scrollbar-thumb
+{
+
+	background-color: #d9edf7;
+}
+
+
+}
+
+
+@media (max-width: 1024px) {
+    aside {
+        width: 100vw;
+        height: 40vh;
+    }
+}
+
+
+@media (max-height: 603px) {
+    aside {
+        height: 35vh;
+    }
+}

@@ -1,0 +1,11 @@
+#app{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 1024px) {
+    #app{
+        flex-direction: column;
+    }
+}
