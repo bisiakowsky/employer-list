@@ -1,0 +1,36 @@
+{
+    "employers": 
+      [
+        {
+            "id": 0,
+            "name": "Dominik",
+            "surename": "Bisiakowski",
+            "pesel": "81030240930",
+            "email": "dombisiakowski@gmail.com",
+            "phone": "123123123",
+            "team": "development",
+            "job profile": "front-end developer"
+          },
+          {
+            "id": 1,
+            "name": "Dominik",
+            "surename": "Bisiakowski",
+            "pesel": "81030240930",
+            "email": "dombisiakowski@gmail.com",
+            "phone": "123123123",
+            "team": "development",
+            "job profile": "front-end developer"
+          },
+          {
+            "id": 2,
+            "name": "Dominik",
+            "surename": "Bisiakowski",
+            "pesel": "81030240930",
+            "email": "dombisiakowski@gmail.com",
+            "phone": "123123123",
+            "team": "development",
+            "job profile": "front-end developer"
+          }
+      ]
+  
+  }
