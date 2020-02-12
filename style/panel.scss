@@ -30,9 +30,16 @@
 
     .panel-body {
         padding: 2vh 2vw;
-
+        
         p {
             padding-bottom: 1vh;
+            .employer-detail{
+                border: none;
+                &:focus{
+                    outline: none;
+                    border-bottom: solid 1px #31708f;
+                }
+            }
         }
 
         .btn-info {
@@ -48,5 +55,7 @@
             border: 1px solid transparent;
             border-radius: 4px;
         }
+      
+        
     }
 }

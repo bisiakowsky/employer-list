@@ -44,6 +44,15 @@
   padding-bottom: 1vh;
 }
 
+.panel-info .panel-body p .employer-detail {
+  border: none;
+}
+
+.panel-info .panel-body p .employer-detail:focus {
+  outline: none;
+  border-bottom: solid 1px #31708f;
+}
+
 .panel-info .panel-body .btn-info {
   color: #fff;
   background-color: #5bc0de;

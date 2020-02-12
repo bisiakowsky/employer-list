@@ -117,6 +117,15 @@ header a .logo {
   padding-bottom: 1vh;
 }
 
+.panel-info .panel-body p .employer-detail {
+  border: none;
+}
+
+.panel-info .panel-body p .employer-detail:focus {
+  outline: none;
+  border-bottom: solid 2px #d9edf7;
+}
+
 .panel-info .panel-body .btn-info {
   color: #fff;
   background-color: #5bc0de;
