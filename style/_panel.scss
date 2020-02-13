@@ -30,11 +30,12 @@
 
     .panel-body {
         padding: 2vh 2vw;
-        
+
         p {
             padding-bottom: 1vh;
             .employer-detail{
                 border: none;
+                width: 50%;
                 &:focus{
                     outline: none;
                     border-bottom: solid 1px #31708f;
@@ -48,7 +49,7 @@
             border-color: #46b8da;
             display: inline-block;
             padding: 1vh 1vw;
-            font-size: .9em;
+            font-size: 1vh;
             line-height: 1.7em;
             text-align: center;
             cursor: pointer;
@@ -56,6 +57,11 @@
             border-radius: 4px;
         }
       
+        .btn-remove{
+            @extend .btn-info;
+            background-color: #dc3545;
+            border-color: #dc3545;
+        }
         
     }
 }
