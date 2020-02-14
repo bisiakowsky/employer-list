@@ -30,7 +30,7 @@
 
     .panel-body {
         padding: 2vh 2vw;
-
+// empty line
         p {
             padding-bottom: 1vh;
             .employer-detail{
@@ -57,7 +57,7 @@
             border-radius: 4px;
         }
       
-        .btn-remove{
+        .btn-remove{ //formatting
             @extend .btn-info;
             background-color: #dc3545;
             border-color: #dc3545;

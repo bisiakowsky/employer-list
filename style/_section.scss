@@ -1,13 +1,13 @@
-section{
+section{ // formatting
     width: 60vw;
     height: 95vh;
-    
+     // empty lines
 
     .employer-details{
         display: flex;
         justify-content: center;
         padding: 1vh;
-        p{
+        p{ // dont style by tags, formatting
             display: flex;
             justify-content: space-between;
             margin: 0 5vw;
@@ -17,11 +17,11 @@ section{
 
 
 @media (max-width: 1024px) {
-    section {
+    section { // dont style by tags
         width: 100vw;
         height: 52vh;
         display: flex;
-    justify-content: flex-end;
+    justify-content: flex-end; //indentation
     flex-direction: column;
     border-top: 3px solid #d9edf7;
     margin-top: 1.5px;
@@ -32,7 +32,7 @@ section{
 }
 
 @media (max-height: 603px) {
-    section {
+    section { // dont style by tags
         height: 57vh;
     }
 }

@@ -8,13 +8,13 @@ header {
     display: flex;
     justify-content: center;
 
-    a {
+    a { //don't style by tags
         text-decoration: none;
 
         .logo {
             padding: 1vh 2vw;
             color: #fff;
-
+// empty lines
 
         }
     }
